@@ -1,9 +1,10 @@
 package com.LearnSpring.iterator;
 
+import java.util.Iterator;
 import java.util.ArrayList;
 
 @SuppressWarnings("rawtypes")
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu{
 	ArrayList menuItems;
 	
 	public PancakeHouseMenu(){
@@ -23,6 +24,7 @@ public class PancakeHouseMenu {
 	}
 	
 	public Iterator createIterator(){
-		return new PancakehouseIterator(menuItems);
+//		return new PancakehouseIterator(menuItems);
+		return menuItems.iterator();
 	}
 }

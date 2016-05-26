@@ -1,6 +1,12 @@
 package com.LearnSpring.iterator;
+import java.util.Iterator;
 
-public class DinerMenu {
+/**
+ * 餐厅菜单类
+ * @author Administrator
+ *
+ */
+public class DinerMenu implements Menu{
 	static final int MAX_ITEM = 6;
 	int numberOfItems = 0;
 	MenuItem[] menuItems;

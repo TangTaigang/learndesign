@@ -1,5 +1,10 @@
 package com.LearnSpring.iterator;
 
+/**
+ * 女招待对象
+ * @author Administrator
+ *
+ */
 public class Waitress {
 	PancakeHouseMenu pancakeHouseMenu;
 	DinerMenu dinerMenu;
